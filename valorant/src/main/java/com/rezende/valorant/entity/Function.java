@@ -20,11 +20,10 @@ public class Function {
 
     }
 
-    public Function(Long id, String name, String description, List<Agent> agents) {
+    public Function(Long id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.agents = agents;
     }
 
     public Long getId() {
